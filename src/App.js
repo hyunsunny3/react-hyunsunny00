@@ -4,6 +4,7 @@ import MainPage from "./components/MainPage";
 import ProductPage from "./components/ProductPage";
 import LoginPage from "./components/LoginPage";
 import LoginPage2 from "./components/LoginPage2";
+import SunnyDice from "./dice/SunnyDice";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <Link to="/ProductPage">상품</Link>
             <Link to="/LoginPage">로그인</Link>
             <Link to="/LoginPage2">로그인2</Link>
+            <Link to="/SunnyDice">주사위</Link>
           </div>
         </div>
       </header>
@@ -28,6 +30,7 @@ function App() {
         <Route path="/ProductPage" element={<ProductPage />} />
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/LoginPage2" element={<LoginPage2 />} />
+        <Route path="/SunnyDice" element={<SunnyDice />} />
       </Routes>
 
       <footer>

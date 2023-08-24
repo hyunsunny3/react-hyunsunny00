@@ -22,7 +22,7 @@ const LoginPage = () => {
                         <input id="userPw" type="password" value={pwValue} onChange={e => setPw(e.target.value)}></input>
                     </div>
                     <div>
-                        <button>로긴ㄱㄱ!</button>
+                        <button>reset!</button>
                     </div>
                 </div>
             </form>
