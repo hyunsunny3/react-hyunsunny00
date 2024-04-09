@@ -1,16 +1,14 @@
 import React from "react";
-import "./Components.css";
 
-const ProductPage = () => {
-    
-    
+  function ProductPage() {
+
     return (
-      <>
-        <div id="wrap">
+        <>
+          <div id="wrap">
             상품리스트 오픈 준비즁임당~❤
-        </div>
-      </>
+          </div>
+        </>
     );
-  };
+}
 
   export default ProductPage;
